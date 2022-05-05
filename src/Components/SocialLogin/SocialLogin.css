@@ -1,0 +1,8 @@
+.g-image img {
+  height: 50px;
+}
+.g-button {
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+}

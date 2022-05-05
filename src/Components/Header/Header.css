@@ -1,0 +1,12 @@
+.all-nav :link {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.all-nav a {
+  color: black;
+}
+
+.bt {
+  margin-left: 50px;
+}
