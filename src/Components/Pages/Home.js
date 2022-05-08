@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InventoryCard from "../Inventory/InventoryCard";
 import "./Home.css";
-import {
-  BeakerIcon,
-  ChipIcon,
-  CubeIcon,
-  GlobeIcon,
-  MenuIcon,
-} from "@heroicons/react/solid";
+import { StarIcon, QuestionMarkCircleIcon } from "@heroicons/react/solid";
 import { Carousel } from "react-bootstrap";
 
 import Slider from "react-slick";
@@ -79,74 +73,63 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container">
-        <h1 className="text-center">Other Services </h1>
+      <section className="container ">
+        <h1 className="text-center">Why Choose us? </h1>
 
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col">
             <div class="h-100">
               <div class="card-body">
-                <ChipIcon className="icon" />
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <QuestionMarkCircleIcon className="icon" />
+                <h5 class="card-title">Best Quality</h5>
               </div>
             </div>
           </div>
           <div class="col">
             <div class=" h-100">
               <div class="card-body">
-                <CubeIcon className="icon" />
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
+                <QuestionMarkCircleIcon className="icon" />
+                <h5 class="card-title">Budget Friendly</h5>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="h-100">
               <div class="card-body">
-                <GlobeIcon className="icon" />
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content.
-                </p>
+                <QuestionMarkCircleIcon className="icon" />
+                <h5 class="card-title">Huge Collection</h5>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="h-100">
               <div class="card-body">
-                <MenuIcon className="icon" />
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <QuestionMarkCircleIcon className="icon" />
+                <h5 class="card-title">Customer Satisfaction</h5>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <div>
-        <h3 className="text-center mb-5"> Our customer Review</h3>
+      <div className="mt-4">
+        <h3 className="text-center mb-5"> Review & Testimony</h3>
         <Slider {...settings}>
           <div>
             <div class=" text-center d-none d-md-block">
               <img
-                src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                src="https://bootdey.com/img/Content/avatar/avatar7.png"
                 className="wpx-100 img-round mgb-20 mx-auto"
                 alt=""
               />
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <h5>
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+              </h5>
+              <p>Best Product .</p>
             </div>
           </div>
           <div>
