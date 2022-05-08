@@ -135,27 +135,35 @@ const Home = () => {
           <div>
             <div class=" text-center d-none d-md-block">
               <img
-                src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                src="https://bootdey.com/img/Content/avatar/avatar5.png"
                 className="wpx-100 img-round mgb-20 mx-auto"
                 alt=""
               />
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <h5>
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+              </h5>
+              <p>Best Product .</p>
             </div>
           </div>
           <div>
             <div class=" text-center d-none d-md-block">
               <img
-                src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                src="https://bootdey.com/img/Content/avatar/avatar3.png"
                 className="wpx-100 img-round mgb-20 mx-auto"
                 alt=""
               />
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <h5>
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+                <StarIcon className="icon" />
+              </h5>
+              <p>Best Product .</p>
             </div>
           </div>
         </Slider>
