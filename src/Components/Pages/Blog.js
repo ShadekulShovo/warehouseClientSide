@@ -15,7 +15,7 @@ const Blog = () => {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+                Difference between javascript and nodejs
               </button>
             </h2>
             <div
@@ -47,7 +47,7 @@ const Blog = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                When should you use nodejs and when should you use mongodb?
               </button>
             </h2>
             <div
@@ -79,7 +79,7 @@ const Blog = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                What is the purpose of jwt and how does it work?
               </button>
             </h2>
             <div
@@ -102,22 +102,54 @@ const Blog = () => {
             </div>
           </div>
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+            <h2 class="accordion-header" id="headingFour">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
+                data-bs-target="#collapseFour"
                 aria-expanded="false"
-                aria-controls="collapseThree"
+                aria-controls="collapseFour"
               >
-                Accordion Item #3
+                Differences between sql and nosql databases.
               </button>
             </h2>
             <div
-              id="collapseThree"
+              id="collapseFour"
               class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the{" "}
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Differences between sql and nosql databases.
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
