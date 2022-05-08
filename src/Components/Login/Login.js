@@ -45,7 +45,7 @@ const Login = () => {
         <h1>Login </h1>
         <Form onSubmit={handleSignInUser}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email Address</Form.Label>
             <Form.Control
               onBlur={handleEmailBlur}
               type="email"
@@ -53,7 +53,7 @@ const Login = () => {
               required
             />
             <Form.Text className="text-muted">
-              We'll never share your email with anyone else.
+              We respect your privacy.
             </Form.Text>
           </Form.Group>
 

@@ -17,7 +17,7 @@ const InventoryCard = ({ inventor }) => {
           <img src={picture} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
-            <h5>price:$ {price}</h5>
+            <h5>Price:$ {price}</h5>
             <p className="card-text">{detail}</p>
 
             {/* <Link to="/inventory">
@@ -27,7 +27,7 @@ const InventoryCard = ({ inventor }) => {
                         </Link>  */}
 
             <Button
-              variant="primary"
+              variant="outline-primary"
               onClick={() => navigateToServiceDetail(_id)}
             >
               Update Inventory

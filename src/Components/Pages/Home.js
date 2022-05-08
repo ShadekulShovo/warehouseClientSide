@@ -34,13 +34,20 @@ const Home = () => {
         <div className="row my-5">
           <dir className="col-md-6 d-flex align-items-center">
             <div>
-              <h1> Wellcome To Our Electronics House</h1>
-              <h2>Here you can find all kinds of electronics products. </h2>
+              <h1>
+                {" "}
+                Introducing Our{" "}
+                <span className="text-warning"> Electronics Mania </span>
+              </h1>
+              <h3>Here you can find all kinds of electronics products. </h3>
               <p>
                 Supplying our customers with the new, top-notch electronics is
                 our motto.
               </p>
-              <button type="button" class="btn btn-primary btn-lg">
+              <button
+                type="button"
+                class="btn btn-outline-success btn-lg fs-3 fw-bold"
+              >
                 Learn More
               </button>
             </div>

@@ -28,7 +28,7 @@ const Inventory = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log("success", data);
-        alert("users added successfully!!");
+        alert("Users added successfully!!");
         event.target.reset();
       });
   };

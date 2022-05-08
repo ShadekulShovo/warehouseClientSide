@@ -7,7 +7,7 @@ const AllItems = ({ serviceItem }) => {
   const [services, setServices] = useServices();
 
   const handleDelete = (id) => {
-    const proceed = window.confirm("Are you deleat ?");
+    const proceed = window.confirm("Wanna Delete Item ?");
     if (proceed) {
       const url = `http://localhost:5000/service/${id}`;
       fetch(url, {

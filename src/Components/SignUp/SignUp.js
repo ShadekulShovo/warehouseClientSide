@@ -96,7 +96,7 @@ const SignUp = () => {
           </Button>
         </Form>
         <p>
-          Alrady have an account <Link to="/login"> Login Now</Link>
+          Alrady have an account? <Link to="/login"> Login Now</Link>
         </p>
         <hr />
         <SocialLogin></SocialLogin>
