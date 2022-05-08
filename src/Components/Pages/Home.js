@@ -177,9 +177,9 @@ const Home = () => {
           </div>
         </Slider>
       </div>
-      <div className="container-fluid footer">
+      <div className="container-fluid footer bg-dark">
         <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3 bg-dark">
             <li class="nav-item">
               <a href="#" class="nav-link px-2 text-muted">
                 Home
@@ -206,7 +206,9 @@ const Home = () => {
               </a>
             </li>
           </ul>
-          <p class="text-center text-muted">© 2021 Electronics Mania, Inc</p>
+          <p class="text-center text-muted bg-dark">
+            © 2021 Electronics Mania, Inc
+          </p>
         </footer>
       </div>
     </div>

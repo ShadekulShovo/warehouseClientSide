@@ -13,7 +13,7 @@ const UpdateItems = () => {
 
   return (
     <div>
-      <h1> Hi this is a update items </h1>
+      <h1> Updated Items </h1>
     </div>
   );
 };
