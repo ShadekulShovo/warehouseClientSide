@@ -25,7 +25,10 @@ const Header = () => {
               <Customlink to="/blog">Blogs</Customlink>
               <Customlink to="/about">About</Customlink>
 
+              <Customlink to="/allitems">ALLITEMS</Customlink>
+
               <Customlink to="/manageInventory">Manage Inventory</Customlink>
+              <Customlink to="/myitems">My Items</Customlink>
 
               {user ? (
                 <button onClick={handleSignOut} className="btn btn-warning bt">

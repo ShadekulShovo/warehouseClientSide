@@ -9,6 +9,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import About from "./Components/Pages/About";
 import AddItems from "./Components/Pages/AddItems/AddItems";
 import UpdateItems from "./Components/Pages/AddItems/UpdateItems";
+import AllItems from "./Components/Pages/AllItems";
 import Blog from "./Components/Pages/Blog";
 import Home from "./Components/Pages/Home";
 import ManageInventory from "./Components/Pages/ManageInventory";
@@ -28,6 +29,7 @@ function App() {
 
         <Route path="/about" element={<About />} />
         <Route path="/additems" element={<AddItems />} />
+        <Route path="/allitems" element={<AllItems />} />
 
         {/* <Route path="/manageInventory" element={<ManageInventory />} /> */}
 
