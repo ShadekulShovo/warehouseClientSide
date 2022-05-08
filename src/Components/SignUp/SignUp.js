@@ -75,8 +75,6 @@ const SignUp = () => {
             />
           </Form.Group>
 
-          {/* this is for confarm pass */}
-
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label> Confirm Password</Form.Label>
             <Form.Control

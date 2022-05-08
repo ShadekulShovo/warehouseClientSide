@@ -20,20 +20,12 @@ const InventoryCard = ({ inventor }) => {
             <h5>Price:$ {price}</h5>
             <p className="card-text">{detail}</p>
 
-            {/* <Link to="/inventory">
-                        
-                        
-                        
-                        </Link>  */}
-
             <Button
               variant="outline-primary"
               onClick={() => navigateToServiceDetail(_id)}
             >
               Update Inventory
             </Button>
-
-            {/* onClick={() => navigateToServiceDetail(_id)}   */}
           </div>
         </div>
       </div>

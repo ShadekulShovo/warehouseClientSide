@@ -31,8 +31,6 @@ function App() {
         <Route path="/additems" element={<AddItems />} />
         <Route path="/allitems" element={<AllItems />} />
 
-        {/* <Route path="/manageInventory" element={<ManageInventory />} /> */}
-
         <Route
           path="/inventory/:serviceId"
           element={
