@@ -44,7 +44,9 @@ const Header = () => {
                   Sign out
                 </button>
               ) : (
-                <Customlink to="/login">Login</Customlink>
+                <Customlink to="/login" className="text-light">
+                  Login
+                </Customlink>
               )}
             </div>
           </div>

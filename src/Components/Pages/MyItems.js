@@ -12,7 +12,7 @@ const MyItems = () => {
     const getMyitems = async () => {
       const email = user?.email;
 
-      const url = `http://localhost:5000/service?email=${email}`;
+      const url = `https://intense-fjord-15672.herokuapp.com/service?email=${email}`;
       const { data } = await axios.get(url);
       setMyitems(data);
     };

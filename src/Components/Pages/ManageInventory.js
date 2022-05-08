@@ -10,7 +10,7 @@ const ManageInventory = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Wanna delete item ?");
     if (proceed) {
-      const url = `http://localhost:5000/service/${id}`;
+      const url = `https://intense-fjord-15672.herokuapp.com/service/${id}`;
       fetch(url, {
         method: "DELETE",
       })
